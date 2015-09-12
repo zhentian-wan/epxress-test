@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var favicon = require('serve-favicon');
 
-app.use(favicon(__dirname + '/public/favicon.ico'))
+app.use(favicon(__dirname + '/favicon.ico'));
 
 app.get('/', function (req, res) {
     res.send('Hello world')
