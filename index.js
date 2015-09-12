@@ -2,12 +2,16 @@ var express = require('express');
 var app = express();
 var favicon = require('serve-favicon');
 
-app.get('/', function (req,res) {
-    res.send('Hello World!');
+app.use(favicon(__dirname + '/public/favicon.ico'))
+
+app.get('/', function (req, res) {
+    res.send('Hello world')
 });
 
-app.use(favicon(__dirname + '/public/favicon.ico'));
+app.get('/yo', function (req, res) {
+    res.send('YO!')
+});
 
-app.listen(8080, function () {
-    console.log("App is listen at port 3112" );
+var server = app.listen(80, function () {
+    console.log('Server running at http://localhost:' + server.address().port)
 });
