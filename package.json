@@ -1,0 +1,22 @@
+{
+  "name": "epxress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhentian-wan/epxress-test.git"
+  },
+  "author": "Zhentian <answer881215@gmail.com> (http://zhentian.herokuapp.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhentian-wan/epxress-test/issues"
+  },
+  "homepage": "https://github.com/zhentian-wan/epxress-test#readme",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
